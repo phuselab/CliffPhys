@@ -37,7 +37,7 @@ The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, inv
    python run_all.py -a 0 -d './estimates/' -t 'XYZ' -m 'CliffPhys30_d'
    ```
 
-   If the *video_type* is *'XYZ'*, it extracts waveforms from three *'XYZ'* (monocular depth estimation + 2D vertical and horizontal optical flow) video examples, stored as numpy    arrays in the *'./data/bp4d_XYZ/'*, using the specified **`CliffPhys`** method. If the *video_type* is *'RGB'*, it first converts each video in *'./data/bp4d/'* (empty) directory is firstly converted to an *'XYZ'* video and then extracts the corresponding predicted respiratory waveform.
+   If the *video_type* is *'XYZ'*, it extracts waveforms from two *'XYZ'* (monocular depth estimation + 2D vertical and horizontal optical flow) video examples, stored as numpy arrays in *'./data/bp4d_XYZ/'*, using the specified **`CliffPhys`** method. If the *video_type* is *'RGB'*, it first converts each video, in the *'./data/bp4d/'* (empty) directory, to an *'XYZ'* video and then extracts the corresponding predicted respiratory waveform. You need to install an Optical Flow extraction method (e.g. ptlflow's raft_small) and a Monocular Depth Estimation mathod (e.g. midas) in order to perform the extraction directly from an 'RGB' video.
 
 3. *Action 1*: extracts the Respiratory Per Minute (RPM) of the predicted respiratory waveforms.
    ```sh
@@ -50,13 +50,15 @@ The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, inv
 Default action is *Action 0*, default directory is *'./estimates/'*, videotype is *'XYZ'* or *'RGB'* (default to *'XYZ'*), methods are listed in the table below (default to *'CliffPhys30_d'*).
 
 Running *Action 0* and *Action 1* with default arguments leads to the following PSDs and Time Signals plots (stored in *'./estimates/'*):
+![Immagine 3](./img/Motion_data.png)
+![Immagine 4](./img/PreProcessing_Testing.png)
 
 Running *Action 2*, the model's performance is presented in the table below. The table includes various performance metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), Pearson Correlation Coefficient (PCC), and Lin's Concordance Correlation Coefficient (CCC):
 
 
 |   Method  | RMSE | MAE  | MAPE | PCC | CCC  |
 |-----------|------|------|------|-----|------|
-| cliffphys | 1.22 | 0.97 | 4.59 | 1.0 | 0.95 |
+| cliffphys | 0.47 | 0.45 | 2.53 | 1.0 | 0.99 |
 
 ## Basic Usage (simple prediction)
 The following code can be used to predict the respiratory waveform from a XYZ video stored at the provided path:
@@ -100,7 +102,7 @@ Then run the simple prediction script to extract the respiratory waveform predic
 
 ## Models
 
-![Immagine 2](./img/Model_architecture.png)
+![Immagine method](./img/Model_architecture.png)
 
 Methods with the *_d* suffix process the 2D vertical and horizontal optical flow projections, along with the provided monocular depth estimation additional information. Methods without *_d* process only the 2D optical flow input.
 | Method             | Description                            | File                                                                  |
