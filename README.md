@@ -50,8 +50,8 @@ The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, inv
 Default action is *Action 0*, default directory is *'./estimates/'*, videotype is *'XYZ'* or *'RGB'* (default to *'XYZ'*), methods are listed in the table below (default to *'CliffPhys30_d'*).
 
 Running *Action 0* and *Action 1* with default arguments leads to the following PSDs and Time Signals plots (stored in *'./estimates/'*):
-![Immagine 3](./img/Motion_data.png)
-![Immagine 4](./img/PreProcessing_Testing.png)
+![Immagine 3](./img/psd_sbj_bp4d_XYZ_M025_T8.pkl.png)
+![Immagine 4](./img/psd_sbj_bp4d_XYZ_F052_T8.pkl.png)
 
 Running *Action 2*, the model's performance is presented in the table below. The table includes various performance metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), Pearson Correlation Coefficient (PCC), and Lin's Concordance Correlation Coefficient (CCC):
 
