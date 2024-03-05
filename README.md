@@ -108,7 +108,7 @@ Then run the simple prediction script to extract the respiratory waveform predic
 Methods with the *_d* suffix process the 2D vertical and horizontal optical flow projections, along with the provided monocular depth estimation additional information. Methods without *_d* process only the 2D optical flow input.
 | Method             | Description                            | File                                                                  |
 |--------------------|----------------------------------------|-----------------------------------------------------------------------|
-| CliffPhys30_d      | Description of the method              | ./weights/CliffPhys30_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
+| CliffPhys30_d      | Model based on the Cl_{30} Clifford Algebra | ./weights/CliffPhys30_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
 | CliffPhys30        | Description of the method              | ./weights/CliffPhys30/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
 | CliffPhys02_d      | Description of the method              | ./weights/CliffPhys02_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
 | CliffPhys02        | Description of the method              | ./weights/CliffPhys02/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
