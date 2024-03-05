@@ -59,7 +59,7 @@ Running *Action 2*, the model's performance is presented in the table below. The
 
 |   Method  | RMSE | MAE  | MAPE | PCC | CCC  |
 |-----------|------|------|------|-----|------|
-| cliffphys | 0.47 | 0.45 | 2.53 | 1.0 | 0.99 |
+| cliffphys | 0.47 | 0.45 | 2.53 | 1.00| 0.99 |
 
 ## Basic Usage (simple prediction)
 The following code can be used to predict the respiratory waveform from a XYZ video stored at the provided path:
