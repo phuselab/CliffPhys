@@ -28,7 +28,10 @@ This repository contains demo code for extracting respiratory waveforms from vid
 
 ## Basic Usage (quick evaluation framework)
 The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, involves three main actions:
-
+0. Move to the CliffPhys directory and create the results folder:
+   ```sh
+   mkdir estimates
+   ```
 1. *Action 0*: extracts respiratory waveforms from videos.
    ```sh
    python run_all.py -a 0 -d './estimates/' -t 'XYZ' -m 'CliffPhys30_d'
