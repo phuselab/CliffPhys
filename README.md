@@ -108,14 +108,14 @@ Then run the simple prediction script to extract the respiratory waveform predic
 Methods with the *_d* suffix process the 2D vertical and horizontal optical flow projections, along with the provided monocular depth estimation additional information. Methods without *_d* process only the 2D optical flow input.
 | Method             | Description                            | File                                                                  |
 |--------------------|----------------------------------------|-----------------------------------------------------------------------|
-| CliffPhys30_d      | Model based on the Clifford Algebra of signature (3,0). Receives also the Monoular Depth Estimation in input, alongside with the horizointal and vertical Optical Flow vector| ./weights/CliffPhys30_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
-| CliffPhys30        | Description of the method              | ./weights/CliffPhys30/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
-| CliffPhys02_d      | Description of the method              | ./weights/CliffPhys02_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
-| CliffPhys02        | Description of the method              | ./weights/CliffPhys02/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
-| CliffPhys03_d      | Description of the method              | ./weights/CliffPhys03_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
-| CliffPhys03        | Description of the method              | ./weights/CliffPhys03/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
-| CliffPhys20_d      | Description of the method              | ./weights/CliffPhys20_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
-| CliffPhys20        | Description of the method              | ./weights/CliffPhys20_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
+| CliffPhys30_d      | Model based on the Clifford Algebra of signature (3,0). It takes as input the Monocular Depth Estimation, along with the horizontal and vertical Optical Flow vectors.| ./weights/CliffPhys30_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
+| CliffPhys30        | Model based on the Clifford Algebra of signature (3,0). It processes only the horizontal and vertical Optical Flow vector. | ./weights/CliffPhys30/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
+| CliffPhys02_d      | Model based on the Clifford Algebra of signature (0,2). It takes as input the Monocular Depth Estimation, along with the horizontal and vertical Optical Flow vectors.              | ./weights/CliffPhys02_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
+| CliffPhys02        | Model based on the Clifford Algebra of signature (0,2). It processes only the horizontal and vertical Optical Flow vector. | ./weights/CliffPhys30/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth              | ./weights/CliffPhys02/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
+| CliffPhys03_d      | Model based on the Clifford Algebra of signature (0,3). It takes as input the Monocular Depth Estimation, along with the horizontal and vertical Optical Flow vectors.         | ./weights/CliffPhys03_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
+| CliffPhys03        | Model based on the Clifford Algebra of signature (0,3). It processes only the horizontal and vertical Optical Flow vector.             | ./weights/CliffPhys03/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth     |
+| CliffPhys20_d      | Model based on the Clifford Algebra of signature (2,0). It takes as input the Monocular Depth Estimation, along with the horizontal and vertical Optical Flow vectors.            | ./weights/CliffPhys20_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
+| CliffPhys20        | Model based on the Clifford Algebra of signature (2,0). It processes only the horizontal and vertical Optical Flow vector.               | ./weights/CliffPhys20_d/PT-scamps_XYZ_FT-cohface_XYZ/Best_epoch.pth   |
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
