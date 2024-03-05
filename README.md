@@ -49,7 +49,8 @@ The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, inv
 
 Default action is *Action 0*, default directory is *'./estimates/'*, videotype is *'XYZ'* or *'RGB'* (default to *'XYZ'*), methods are listed in the table below (default to *'CliffPhys30_d'*).
 
-Running *Action 0* and *Action 1* with default arguments leads to the following PSDs and Time Signals plots (stored in *'./estimates/'*):
+Running *Action 0* and *Action 1* with default arguments leads to the following PSDs and Time Signals plots (stored in *'./estimates/'*) for subjects *M025_T8* and *F052_T8* respectively:
+
 ![Immagine 3](./img/psd_sbj_bp4d_XYZ_M025_T8.pkl.png)
 ![Immagine 4](./img/psd_sbj_bp4d_XYZ_F052_T8.pkl.png)
 
