@@ -14,15 +14,13 @@ This repository contains demo code for extracting respiratory waveforms from vid
 ## Getting Started
 
 ### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/CliffPhys.git
+Download the repository, then:
    
-2. Move to the CliffPhys directory and install the dependencies:
+1. Move to the CliffPhys directory and install the dependencies:
    ```sh
    conda env create -f environment.yml
 
-3. Activate the CliffPhys conda environment:
+2. Activate the CliffPhys conda environment:
    ```sh
    conda activate CliffPhys
 
