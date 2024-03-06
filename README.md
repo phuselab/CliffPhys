@@ -8,8 +8,8 @@ Demo code for the submitted paper 'CliffPhys: Camera-based Respiratory Measureme
 ## Description
 This repository contains demo code for extracting respiratory waveforms from videos using the **`CliffPhys`** family of methods. The provided methods utilize Clifford Neural Networks for accurate respiratory measurement from camera feeds.
 
-![Immagine 1](./img/Motion_data.png)
-![Immagine 2](./img/PreProcessing_Testing.png)
+<!-- ![Immagine 1](./img/Motion_data.png)
+ ![Immagine 2](./img/PreProcessing_Testing.png) -->
 
 ## Getting Started
 
