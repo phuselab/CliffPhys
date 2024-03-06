@@ -86,8 +86,8 @@ import os
 import numpy as np
 import utils
 d = {}
-d['video_path'] = #Path to file
-d['subject'] = 'M025_T8'
+d['video_path'] = # Path to video file
+d['subject'] = # Name of the directory containing the subject's video
 d['fps'] = 25
 extract_OF_type = 'raft_small'
 extract_depth_type = 'midas'
