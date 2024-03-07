@@ -26,7 +26,7 @@ Download the repository, then:
 
 ## Basic Usage (quick evaluation framework)
 The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, involves three main actions:
-1. Move to the CliffPhys directory and create the results folder:
+1. In the CliffPhys directory, create the results folder:
    ```sh
    mkdir estimates
    ```
