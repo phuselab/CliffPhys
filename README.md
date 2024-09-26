@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3-blue.svg)
 ![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-orange.svg)
 
-Demo code for the submitted paper 'CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks' (Paper ID #11393)
+Demo code for the submitted paper 'CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks' (ECCV 2024)
 
 ## Description
 This repository contains demo code for extracting respiratory waveforms from videos using the **`CliffPhys`** family of methods. The provided methods utilize Clifford Neural Networks for accurate respiratory measurement from camera feeds.
@@ -117,3 +117,15 @@ Methods with the *_d* suffix process the 2D vertical and horizontal optical flow
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+Please cite with the following BibTeX:
+```
+@inproceedings{ghezzi2024cliffphys,
+  title={{CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks}},
+  author={Ghezzi, Omar and Boccignone, Giuseppe and Grossi, Giuliano and Lanzarotti, Raffaella and D'Amelio, Alessandro},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  year={2024}
+}
+```
