@@ -1,9 +1,9 @@
-# CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks
+# CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks (ECCV 2024)
 
 ![Python](https://img.shields.io/badge/python-3-blue.svg)
 ![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-orange.svg)
 
-Demo code for the submitted paper 'CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks' (ECCV 2024)
+Demo code for the paper 'CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks' (ECCV 2024)
 
 ## Description
 This repository contains demo code for extracting respiratory waveforms from videos using the **`CliffPhys`** family of methods. The provided methods utilize Clifford Neural Networks for accurate respiratory measurement from camera feeds.
