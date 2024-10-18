@@ -35,7 +35,7 @@ The evaluation framework *run_all.py*, for the **`CliffPhys`** model family, inv
    python run_all.py -a 0 -d './estimates/' -t 'XYZ' -m 'CliffPhys30_d'
    ```
 
-   If the *video_type* is *'XYZ'*, it extracts waveforms from two *'XYZ'* (monocular depth estimation + 2D vertical and horizontal optical flow) video examples, stored as numpy arrays in *'./data/bp4d_XYZ/'*, using the specified **`CliffPhys`** method. If the *video_type* is *'RGB'*, it first converts each video, in the *'./data/bp4d/'* (empty) directory, to an *'XYZ'* video and then extracts the corresponding predicted respiratory waveform. You need to install an Optical Flow extraction method (e.g. ptlflow's raft_small) and a Monocular Depth Estimation mathod (e.g. midas) in order to perform the extraction directly from an 'RGB' video.
+   If the *video_type* is *'XYZ'*, it extracts waveforms from two *'XYZ'* (monocular depth estimation + 2D vertical and horizontal optical flow) video examples, stored as numpy arrays in *'./data/bp4d_XYZ/'*, using the specified **`CliffPhys`** method. If the *video_type* is *'RGB'*, it first converts each video, in the *'./data/bp4d/'* (empty) directory, to an *'XYZ'* video and then extracts the corresponding predicted respiratory waveform. You need to install an Optical Flow extraction method (e.g. ptlflow's raft_small) and a Monocular Depth Estimation method (e.g. midas) in order to perform the extraction directly from an 'RGB' video.
 
 3. *Action 1*: extracts the Respiratory Per Minute (RPM) of the predicted respiratory waveforms.
    ```sh
