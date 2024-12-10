@@ -122,10 +122,15 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 Please cite with the following BibTeX:
 ```
-@inproceedings{ghezzi2024cliffphys,
-  title={{CliffPhys: Camera-based Respiratory Measurement using Clifford Neural Networks}},
-  author={Ghezzi, Omar and Boccignone, Giuseppe and Grossi, Giuliano and Lanzarotti, Raffaella and D'Amelio, Alessandro},
-  booktitle={Proceedings of the European Conference on Computer Vision},
-  year={2024}
+@InProceedings{cliffPhys,
+author="Ghezzi, Omar and Boccignone, Giuseppe and Grossi, Giuliano and Lanzarotti, Raffaella and D'Amelio, Alessandro",
+title="CliffPhys: Camera-Based Respiratory Measurement Using Clifford Neural Networks",
+booktitle="Computer Vision -- ECCV 2024",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="221--238",
+isbn="978-3-031-73013-9"
+}
 }
 ```
